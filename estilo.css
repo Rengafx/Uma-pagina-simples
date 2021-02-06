@@ -1,17 +1,18 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
-.header{
-    justify-content:space-around;
+
+.header {
+    justify-content: space-around;
     align-items: center;
     display: flex;
     text-align: center;
     background-color: black;
     page-break-after: 20px;
-    
 }
-.logo{
+
+.logo {
     width: 100px;
     height: 100px;
     background-image: url("logo3.gif");
@@ -19,27 +20,29 @@ body{
     background-size: cover;
     background-position: center;
 }
-.logo{
+
+.logo {
     color: white;
-    border:1px solid black;
+    border: 1px solid black;
     border-radius: 50%;
 }
-.menu{
+
+.menu {
     display: flex;
     font-size: 15px;
-    
     display: flex;
     justify-content: space-between;
     padding: 10px;
     margin-left: 5px;
 }
 
-.menu ul{
+.menu ul {
     margin-left: 5px;
     align-items: center;
     justify-content: space-between;
 }
-.menu li{
+
+.menu li {
     display: block;
     color: tomato;
     margin-left: 10px;
@@ -47,14 +50,16 @@ body{
     list-style: none;
     padding: 10px;
 }
-a{
+
+a {
     text-decoration: none;
-    
 }
-.menu li a:hover{
+
+.menu li a:hover {
     background-color: tomato;
 }
-.capa{
+
+.capa {
     width: 100%;
     height: 600px;
     background-image: url("capa.jpg");
@@ -63,7 +68,31 @@ a{
     background-position-x: center;
     page-break-after: 20px;
 }
-h1{
+
+h1 {
     font-size: 50px;
     text-align: center;
+}
+
+.container1 {
+    background-color: wheat;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.produto {
+    background-color: #2a2a2a;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    border: 6px solid black;
+}
+hr{
+    width: 400px;
+    border:3px solid black;
+    border-radius: 50px;
+    background-color: tomato;
+    margin-top: 25px;
 }
