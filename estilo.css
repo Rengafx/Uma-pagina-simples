@@ -75,24 +75,76 @@ h1 {
 }
 
 .container1 {
-    background-color: wheat;
-    padding: 10px;
+    margin: 0 AUTO;
+    max-width: 990PX;
+    padding: 12px;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .produto {
-    background-color: #2a2a2a;
-    width: 300px;
+    background-color: orangered;
+    width: 250px;
     margin: 10px;
     text-align: center;
     border: 6px solid black;
 }
-hr{
-    width: 400px;
-    border:3px solid black;
+
+hr {
+    height: 20PX;
+    width: 600px;
+    border: 1px solid orange;
     border-radius: 50px;
     background-color: tomato;
     margin-top: 25px;
+}
+
+.container-equipe {
+    margin: 0 AUTO;
+    background-color: rgb(245, 161, 7);
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.equipe {
+    background-color: #2a2a2a;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    text-align: center;
+    border: 6px solid black;
+}
+
+.equipe {
+    display: flex;
+    border-radius: 100%;
+    background-image: url("vendedor.jpg");
+    background-repeat: no-repeat;
+    background-size: 480px;
+    background-position-x: center;
+    text-align: center;
+}
+
+.contato-container {
+    display: flex;
+    
+    margin: 0 auto;
+    width: 960px;
+    background-color: rgb(245, 161, 7);
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.contato {
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+ 
 }
