@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    justify-content:space-around;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: black;
+    page-break-after: 20px;
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-image: url("logo3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    color: white;
+    border:1px solid black;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    font-size: 15px;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.menu ul{
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu li{
+    display: block;
+    color: tomato;
+    margin-left: 10px;
+    font-size: large;
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    
+}
+.menu li a:hover{
+    background-color: tomato;
+}
+.capa{
+    width: 100%;
+    height: 600px;
+    background-image: url("capa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    page-break-after: 20px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
