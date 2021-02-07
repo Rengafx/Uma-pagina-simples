@@ -175,3 +175,17 @@ hr {
     transform: scale(1.1);
 
 }
+.img-tamanho{
+   background-position: center;
+}
+.sobre{
+    color: wheat;
+    position: absolute;
+}
+.sobre{
+    left: 60px;
+    margin-top: -600px;
+}
+.sobre{
+   text-align: justify;
+}
