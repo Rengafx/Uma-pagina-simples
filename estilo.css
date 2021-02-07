@@ -43,6 +43,7 @@ body {
 }
 
 .menu li {
+    
     display: block;
     color: tomato;
     margin-left: 10px;
@@ -52,6 +53,8 @@ body {
 }
 
 a {
+    color: white;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -103,7 +106,7 @@ hr {
 
 .container-equipe {
     margin: 0 AUTO;
-    background-color: rgb(245, 161, 7);
+
     padding: 10px;
     justify-content: center;
     display: flex;
@@ -135,7 +138,7 @@ hr {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 1100px;
-    background-color:orange;
+   
     padding: 10px;
     justify-content: center;
     page-break-after: 20px;
@@ -147,6 +150,7 @@ hr {
     text-align: center;
     padding: 10px;
     align-items: center;
+    page-break-after: 20px;
  
 }
 .footer{
@@ -156,4 +160,8 @@ hr {
     width: 100%;
     height: 150px;
     background-color: black;
+}
+.endereco{
+    color:white;
+    margin-top: 50px;
 }
