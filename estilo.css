@@ -93,6 +93,7 @@ h1 {
     margin: 10px;
     text-align: center;
     border: 6px solid black;
+    overflow: hidden;
 }
 
 hr {
@@ -164,4 +165,13 @@ hr {
 .endereco{
     color:white;
     margin-top: 50px;
+}
+.img-zoom{
+    transition: all 0.3s ;
+    
+}
+.img-zoom:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+
 }
